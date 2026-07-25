@@ -57,7 +57,7 @@
         <h4 class="text-xs font-mono uppercase tracking-wider text-white">Contact</h4>
         <ul class="space-y-2 text-sm">
           <li class="text-gray-400 truncate">saurabhtech.sp@gmail.com</li>
-          <li class="text-gray-400">+91 90000 00000</li>
+          <li class="text-gray-400">+91 74149 09949</li>
           <li class="pt-2">
             <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 uppercase">
               Available Freelance

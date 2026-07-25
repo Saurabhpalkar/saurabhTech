@@ -53,7 +53,7 @@
             v-model="form.name"
             type="text" 
             required
-            placeholder="John Doe"
+            placeholder="Saurabh Palkar"
             class="px-4 py-3 rounded-lg bg-[#161616] border border-white/5 text-white placeholder-gray-600 focus:outline-none focus:border-emerald-500/50 transition-colors text-sm"
           />
         </div>
@@ -66,7 +66,7 @@
             v-model="form.email"
             type="email" 
             required
-            placeholder="john@example.com"
+            placeholder="saurabhtech.sp@gmail.com"
             class="px-4 py-3 rounded-lg bg-[#161616] border border-white/5 text-white placeholder-gray-600 focus:outline-none focus:border-emerald-500/50 transition-colors text-sm"
           />
         </div>
@@ -75,12 +75,13 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <!-- Phone -->
         <div class="flex flex-col">
-          <label for="phone" class="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Phone</label>
+          <label for="phone" class="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Phone *</label>
           <input 
             id="phone"
             v-model="form.phone"
             type="tel" 
-            placeholder="+91 90000 00000"
+            placeholder="+91 74149 09949"
+            required
             class="px-4 py-3 rounded-lg bg-[#161616] border border-white/5 text-white placeholder-gray-600 focus:outline-none focus:border-emerald-500/50 transition-colors text-sm"
           />
         </div>
@@ -92,7 +93,7 @@
             id="company"
             v-model="form.company"
             type="text" 
-            placeholder="Acme Corp"
+            placeholder="saurabhTech Solution"
             class="px-4 py-3 rounded-lg bg-[#161616] border border-white/5 text-white placeholder-gray-600 focus:outline-none focus:border-emerald-500/50 transition-colors text-sm"
           />
         </div>

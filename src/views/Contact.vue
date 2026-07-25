@@ -43,7 +43,7 @@
               <div class="space-y-1">
                 <h4 class="text-xs font-mono uppercase text-gray-500">WhatsApp Messaging</h4>
                 <a @click.prevent="openWhatsAppChat" href="#" class="text-sm sm:text-base font-semibold text-emerald-400 hover:text-emerald-300 transition-colors">
-                  +91 90000 00000
+                  +91 74149 09949
                 </a>
               </div>
             </div>

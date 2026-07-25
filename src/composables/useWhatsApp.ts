@@ -1,5 +1,5 @@
 export function useWhatsApp() {
-  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "919000000000"; // Fallback placeholder, user can override in .env
+  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "917414909949"; // Fallback placeholder, user can override in .env
 
   const getWhatsAppUrl = (text: string): string => {
     const encodedText = encodeURIComponent(text);
