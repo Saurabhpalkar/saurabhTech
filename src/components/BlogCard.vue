@@ -49,6 +49,7 @@
 <script setup lang="ts">
 import { defineProps } from 'vue';
 import { ArrowRight } from 'lucide-vue-next';
+import profileImage from '../assets/images/logo.png';
 
 defineProps<{
   post: {

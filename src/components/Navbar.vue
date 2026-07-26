@@ -3,9 +3,13 @@
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <!-- Logo -->
       <router-link to="/" class="flex items-center space-x-2 group">
-        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-white font-mono font-bold text-lg shadow-[0_0_15px_rgba(16,185,129,0.3)] group-hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] transition-all duration-300">
-          S
-        </div>
+<div class="w-10 h-10 flex items-center justify-center overflow-hidden">
+  <img
+    :src="logo"
+    alt="SaurabhTech Logo"
+    class="w-full h-full object-cover"
+  />
+</div>
         <div class="flex flex-col">
           <span class="text-white font-bold tracking-tight text-lg group-hover:text-emerald-400 transition-colors">SaurabhTech</span>
           <span class="text-[10px] font-mono tracking-wider text-emerald-500 uppercase">Agency Profile</span>
@@ -88,6 +92,7 @@
 import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { Menu, X } from 'lucide-vue-next';
+import logo from '../assets/images/logo.png';
 
 const route = useRoute();
 const isOpen = ref(false);
