@@ -9,7 +9,7 @@
     <AboutSection />
 
     <!-- Interactive Projects Filter Showcase -->
-    <section class="py-24 bg-[#0a0a0a] border-t border-emerald-500/5" id="projects-showcase">
+    <section class="py-24 bg-[#0a0a0a] border-t border-emerald-500/5" id="projects-showcase" v-if="false"> 
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-16">
           <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 mb-2">Showcase</span>

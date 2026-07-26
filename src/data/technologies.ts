@@ -25,7 +25,7 @@ export const technologies: Technology[] = [
     description: "Semantic accessible layout structures conforming to modern standards."
   },
   {
-    name: "CSS3 / Tailwind",
+    name: "CSS3 / Boosrtstrap ",
     category: "Languages",
     proficiency: "Expert",
     description: "Utility-first clean rapid layouts with precision spacing."

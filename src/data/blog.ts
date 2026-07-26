@@ -82,12 +82,12 @@ If you're building a simple, single-page script that does one basic thing, Core 
   },
   {
     id: "building-real-time-applications-with-websockets",
-    title: "Building Real-Time Apps with WebSockets & Laravel",
+    title: "Building Real-Time Apps with WebSockets",
     category: "Engineering",
     readingTime: "6 min read",
     date: "May 15, 2026",
     excerpt: "Learn how WebSockets bypass standard HTTP polling to deliver instantaneous, sub-second chat messages and live notifications.",
-    image: "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&q=80&w=800",
+    image: "src/assets/images/chat-app-banner.png",
     content: `
 ### Demystifying WebSockets: True Real-Time Connectivity
 
@@ -119,7 +119,8 @@ Integrating WebSockets elevates your application from a standard static experien
     readingTime: "4 min read",
     date: "April 10, 2026",
     excerpt: "Social media pages are great, but a customized website is the only digital asset you fully own and control. Here is why it's critical.",
-    image: "https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&q=80&w=800",
+    image: "src/assets/images/generic-booking-banner.png",
+    
     content: `
 ### Owning Your Digital Territory
 

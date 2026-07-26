@@ -48,8 +48,8 @@ const filters = [
   { name: 'All Work', value: 'all' },
   { name: 'Business Websites', value: 'Websites' },
   { name: 'Hotel & Resort', value: 'Hotel' },
-  { name: 'SaaS Platforms', value: 'SaaS' },
-  { name: 'E-Commerce', value: 'E-Commerce' },
+  // { name: 'SaaS Platforms', value: 'SaaS' },
+  // { name: 'E-Commerce', value: 'E-Commerce' },
   { name: 'Web Applications', value: 'Web Applications' }
 ];
 

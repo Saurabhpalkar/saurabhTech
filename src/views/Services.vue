@@ -13,7 +13,10 @@
           I provide secure, modular, full-stack software development services tailored directly to business growth objectives. All services include direct developer logging, optimization sprints, and 12-month post-launch support.
         </p>
       </div>
-
+ 
+      <PricingSection />
+      <ReadyToLaunchSection />
+ 
       <!-- Detailed Services Listings Grid (Bento Style or Large list) -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20" id="services-detailed-grid">
         <div 
@@ -101,6 +104,8 @@ import {
   ArrowRight
 } from 'lucide-vue-next';
 import { services, Service } from '../data/services';
+import PricingSection from '../components/PricingSection.vue';
+import ReadyToLaunchSection from '../components/ReadyToLaunchSection.vue';
 import { useWhatsApp } from '../composables/useWhatsApp';
 import { useAnalytics } from '../composables/useAnalytics';
 import { useScrollAnimation } from '../composables/useScrollAnimation';

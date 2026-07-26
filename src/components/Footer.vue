@@ -4,9 +4,13 @@
       <!-- Info Column -->
       <div class="lg:col-span-5 space-y-6">
         <router-link to="/" class="flex items-center space-x-2">
-          <div class="w-8 h-8 rounded bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-white font-mono font-bold text-base shadow-[0_0_10px_rgba(16,185,129,0.2)]">
-            S
-          </div>
+        <div class="w-10 h-10 flex items-center justify-center overflow-hidden">
+          <img
+            :src="logo"
+            alt="SaurabhTech Logo"
+            class="w-full h-full object-cover"
+          />
+        </div>
           <span class="text-white font-bold tracking-tight text-base">SaurabhTech</span>
         </router-link>
         <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
@@ -81,6 +85,7 @@
 
 <script setup lang="ts">
 import { Github, Linkedin, Mail } from 'lucide-vue-next';
+import logo from '../assets/images/logo.png';
 
 const sitemapLinks = [
   { name: 'Home Landing', path: '/' },

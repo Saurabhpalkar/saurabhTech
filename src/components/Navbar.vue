@@ -3,13 +3,13 @@
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <!-- Logo -->
       <router-link to="/" class="flex items-center space-x-2 group">
-<div class="w-10 h-10 flex items-center justify-center overflow-hidden">
-  <img
-    :src="logo"
-    alt="SaurabhTech Logo"
-    class="w-full h-full object-cover"
-  />
-</div>
+        <div class="w-10 h-10 flex items-center justify-center overflow-hidden">
+          <img
+            :src="logo"
+            alt="SaurabhTech Logo"
+            class="w-full h-full object-cover"
+          />
+        </div>
         <div class="flex flex-col">
           <span class="text-white font-bold tracking-tight text-lg group-hover:text-emerald-400 transition-colors">SaurabhTech</span>
           <span class="text-[10px] font-mono tracking-wider text-emerald-500 uppercase">Agency Profile</span>
