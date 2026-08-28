@@ -284,6 +284,129 @@ export const projects: Project[] = [
   liveDemoUrl: "https://generic-booking-system.onrender.com/"
   // liveDemoUrl: "https://your-booking-system-demo-url.com"
 },
+
+{
+  id: "egram-panchayat",
+  title: "eGramPanchayat",
+  category: "Government SaaS Platform",
+
+  shortDescription:
+    "A Marathi-first digital Gram Panchayat platform that enables citizens to access services, submit applications, upload documents, and track their applications online.",
+
+  fullDescription:
+    "A modern digital Gram Panchayat SaaS platform designed to bring village-level government services online. The platform provides citizens with a simple Marathi-first interface to discover Gram Panchayat services, submit applications, upload required documents, and track application status. It also includes role-based dashboards for citizens, staff, administrators, and super administrators, creating a complete digital workflow for Gram Panchayat service management.",
+
+  businessProblem:
+    "Traditional Gram Panchayat services often require citizens to visit the office multiple times, manually submit documents, and follow up in person to know the status of their applications. The platform needed to simplify this process and provide a centralized digital system for both citizens and Gram Panchayat staff.",
+
+  solution:
+    "Created a full-stack SaaS platform using Vue.js and Laravel REST APIs. Citizens can authenticate using OTP, browse available Gram Panchayat services, submit applications, upload supporting documents, and view their application history and status. Role-based dashboards provide separate workflows for citizens, staff, administrators, and super administrators.",
+
+  features: [
+    "Marathi-First Bilingual User Experience",
+    "Citizen OTP Authentication",
+    "Role-Based Authentication and Authorization",
+    "Citizen Dashboard with Application Statistics",
+    "Gram Panchayat Service Listing",
+    "Online Citizen Service Application",
+    "Multi-Step Application Form",
+    "Application Document Upload",
+    "Secure Application and Document Storage",
+    "Application Number Generation",
+    "Application Status Tracking",
+    "Application History and Search",
+    "Status-Based Application Filtering",
+    "Staff and Admin Dashboard Architecture",
+    "Super Admin SaaS Management Architecture",
+    "Multi-Tenant Ready Architecture",
+    "REST API Architecture",
+    "Responsive Mobile-First Interface"
+  ],
+
+  technologies: [
+    "Laravel 12",
+    "PHP",
+    "Vue.js 3",
+    "TypeScript",
+    "Vite",
+    "Bootstrap 5",
+    "MySQL",
+    "Laravel Sanctum",
+    "REST API",
+    "Axios"
+  ],
+
+  image: "/src/assets/images/egram-panchayat-banner.png",
+
+  projectStatus: "In Development",
+  isFeatured: true,
+
+  challenges:
+    "Designing a government-focused SaaS platform that remains simple enough for citizens with limited technical experience while supporting complex workflows such as OTP authentication, role-based access, online applications, document uploads, application tracking, and future administrative processing. Another major challenge was creating a Marathi-first interface while maintaining a clean and modern digital experience.",
+
+  results:
+    "Built a functional digital Gram Panchayat platform that allows citizens to authenticate, discover services, submit applications, upload supporting documents, and track their applications online. The backend now supports authenticated users, application management, document storage, and role-based architecture, providing a strong foundation for the complete Gram Panchayat SaaS platform.",
+
+  liveDemoUrl: "https://egrampanchayatsp.netlify.app/"
+},
+{
+  id: "dignose-center",
+  title: "Diagnova Diagnostics",
+  category: "Healthcare Website",
+
+  shortDescription:
+    "A modern healthcare diagnostic website offering laboratory tests, health packages, and convenient doorstep sample collection services.",
+
+  fullDescription:
+    "A premium healthcare diagnostic website created for Diagnova Diagnostics to provide patients with a clear and convenient way to explore diagnostic tests, health checkup packages, and home sample collection services. The website focuses on building trust through quality-focused messaging, modern laboratory technology, certified professionals, transparent pricing, and easy booking through WhatsApp and online forms.",
+
+  businessProblem:
+    "The diagnostic center needed a professional digital presence where patients could easily discover laboratory tests and health packages, understand pricing and turnaround times, and conveniently schedule home sample collection without needing to visit the diagnostic center.",
+
+  solution:
+    "Created a modern patient-focused diagnostic website with dedicated sections for popular laboratory tests, preventive health packages, doorstep sample collection, booking, and healthcare assurances. The platform provides clear test information, pricing, turnaround times, home collection details, and direct WhatsApp communication to simplify the booking process.",
+
+  features: [
+    "Modern Healthcare-Focused User Interface",
+    "Diagnostic Test Search and Discovery",
+    "450+ Diagnostic Test Showcase",
+    "Popular Laboratory Test Listings",
+    "Health Checkup Package Showcase",
+    "Essential, Advanced and Complete Wellness Packages",
+    "Transparent Test and Package Pricing",
+    "Test Turnaround Time Information",
+    "Free Home Sample Collection",
+    "Doorstep Sample Collection Booking",
+    "Preferred Date and Time Slot Selection",
+    "WhatsApp Booking Integration",
+    "Direct Phone and WhatsApp Contact",
+    "Digital Report Delivery Information",
+    "Quality and Laboratory Certification Showcase",
+    "Professional Phlebotomist and Cold-Chain Information",
+    "Responsive Mobile, Tablet and Desktop Design"
+  ],
+
+  technologies: [
+    "Vue.js",
+    "Vite",
+    "TypeScript",
+    "Tailwind CSS",
+    "JavaScript"
+  ],
+
+  image: "/src/assets/images/dignose-center-banner.png",
+
+  projectStatus: "Completed",
+  isFeatured: true,
+
+  challenges:
+    "Designing a healthcare website that communicates medical information clearly while maintaining a trustworthy and professional visual experience. Another challenge was presenting a large number of diagnostic tests, health packages, pricing, turnaround times, and doorstep collection information without overwhelming users.",
+
+  results:
+    "Created a professional digital presence for Diagnova Diagnostics that makes it easier for patients to discover diagnostic services, compare health packages, understand test details and pricing, and schedule convenient home sample collection. The website combines healthcare credibility with a simple booking and communication experience through WhatsApp and phone.",
+
+  liveDemoUrl: "https://dignosecenter.netlify.app/"
+},
   // {
   //   id: "real-time-chat",
   //   title: "SyncTalk: Real-Time Chat App",
